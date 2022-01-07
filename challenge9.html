@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge 9</title>
+    <link rel="stylesheet" href="css/challenge9.css" />
+  </head>
+  <body>
+    <center>
+      <h2 style="color: red; margin-top: 4px"><u>Challenge 9</u></h2>
+    </center>
+    <center>
+      <div>
+        <p>
+          class Main <br />
+          {<br />
+          Node head <br />
+          static class Node <br />
+          { <br />
+          int data <br />
+          Node next <br />
+          Node(int d) <br />
+          { <br />
+          data = d <br />
+          next = null <br />
+          } <br />
+          } <br /><br />
+
+          static void insert(int data) <br />
+          { <br />
+          Node node = new Node(data) <br />
+          if(head==null) <br />
+          { <br />
+          head = node <br />
+          head.next = head <br />
+          } <br />
+          else{ <br />
+          Node temp = head; <br />
+          while(temp.next!=head) <br />
+          { <br />
+          temp = temp.next <br />
+          } <br />
+          temp.next = node <br />
+          node.next = head <br />
+          } <br />
+          } <br />
+
+          <br />
+          static void delmid(int data) <br />
+          { <br />
+          Node temp = head <br />
+          Node ptr = null <br />
+          while(temp.data!=data) <br />
+          { <br />
+          ptr = temp <br />
+          temp = temp.next <br />
+          } <br />
+          ptr.next = temp.next <br />
+          temp.next = null <br />
+          } <br /><br />
+
+          static void display() <br />
+          { <br />
+          Node t = head <br />
+          while(t.next!=head) <br />
+          { <br />
+          S.o.p(t.data) <br />
+          t = t.next <br />
+          } <br />
+          System.out.print(t.data) <br />
+          } <br /><br />
+          public static void main(String[] args) <br />
+          { <br />
+          insert(1); <br />
+          insert(2); <br />
+          insert(3); <br />
+          insert(4); <br />
+          insert(5); <br />
+          insert(6); <br />
+          insert(7); <br />
+          insert(8); <br />
+          delmid(5); <br />
+          insert(0); <br />
+          display(); <br />
+          } <br />
+          } <br />
+        </p>
+        <br /><br /><br />
+        <h4 style="color: yellow; background-color: rgba(228, 4, 4, 0.664)">
+          Hint :- Flag should not be errors, The flag should be integer value
+        </h4>
+        <br /><br /><br />
+      </div>
+    </center>
+  </body>
+</html>

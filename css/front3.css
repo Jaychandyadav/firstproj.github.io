@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(..//image/front3/hacker.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.challenges {
+  margin-top: 20px;
+  margin-right: 16px;
+  width: 266px;
+  height: 612px;
+  border: 2px solid white;
+  float: right; /* float will go on opposite side */
+  text-align: center;
+  border: 2px solid rgba(161, 159, 161, 0.308);
+  border-radius: 29px;
+  background-color: rgba(49, 7, 128, 0.308);
+}
+
+.challenges button {
+  margin: 15px;
+  width: 215px;
+  height: 31px;
+  font-size: 14px; /* in hover we will do 16px */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid rgb(7, 7, 7);
+  background-color: rgba(14, 250, 6, 0.836);
+  color: rgb(10, 10, 10);
+  border-radius: 8px;
+  font-weight: 550;
+}
+
+.button:hover {
+  /* padding: 4px; */
+  width: 220px;
+  /* height: 30px; */
+  font-size: 18x;
+  background-color: rgba(216, 7, 7, 0.918);
+  border: 1px solid rgba(13, 161, 206, 0.897);
+  border-radius: 8px;
+  font-weight: 800;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+  border-color: #f1ff5c;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  color: white;
+}
+
+#back {
+  margin: 0 auto;
+  margin-top: 568px;
+  margin-left: 30px;
+  width: 80px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: rgba(16, 180, 16, 0.911);
+  border: 2px solid white;
+  color: white;
+  font-weight: 300;
+}
+
+#flag {
+  width: 350px;
+  height: 109px;
+  float: right;
+  margin-top: 163px;
+  margin-right: 245px;
+  border: 1px solid rgba(205, 230, 231, 0.568);
+  border-radius:9px;
+  background-color: rgba(0, 0, 0, 0.219);
+}
+
+#button{
+  margin-top: 21px;
+  width: 60px;
+  height: 23px;
+  border-radius: 4px;
+  border: 1px solid white;
+  color: white;background-color: rgba(5, 33, 156, 0.37);;
+}
+
+#button:hover{
+  width: 63px;  
+  font-size: px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: rgba(4, 6, 19, 0.904);
+  color: white;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+.find
+{
+  margin-top: 22px;
+  
+}
+
+#ans {
+  text-align: center;
+}
+img {
+  margin-top: 12px;
+}
+
+@media (min-width:100px) and (max-width: 600px)
+{
+  body {
+    background-image: url(../image/front3/hacker.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+
+  img{
+    display: none;
+  }
+  
+
+  .challenges {
+    margin-right: 31px;
+    width: 419px;
+    height: 300px;
+    margin-top: 29px;
+  }
+
+  br {
+    display: none;
+  }
+
+  .challenges #buttons .button {
+    width: 145px;
+    
+  }
+
+  #flag  {
+    margin-top: 58px;
+    margin-right: 87px;
+    height: 102px;
+    width: 307px
+  }
+
+
+
+}

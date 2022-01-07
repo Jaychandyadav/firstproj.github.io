@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../pexels-mikhail-nilov-6963061.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;        
+}
+
+form {
+    margin: 0 auto;
+    align-items: center;     /* when you will write margin: 0 auto then it will run */
+    width: 450px;
+    
+    transition: 0.25s;
+}
+
+#menu {
+    margin-top: 180px;
+    width: 450px;
+    height: 149px;
+    background: rgba(12, 12, 12, 0.212);
+    transition: 0.25s;
+    border-radius: 10px;
+    border: 1px solid rgba(224, 218, 218, 0.418);
+}
+
+#note {
+    display: flex;
+}
+
+#star {
+    margin-left: 8px;
+    color: red;
+    margin-top: 9px;
+}
+
+#mes {
+    margin-left: 12px;
+    margin-top: 8px;
+    height: 2px;
+    color: rgba(255, 255, 255, 0.932);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#note2 {
+    display: flex;
+}
+
+#star2 {
+    margin-left: 8px;
+    color: red;
+    margin-top: 9px;
+}
+
+#mes2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 12px;
+    margin-top: 8px;
+    height: 2px;
+    color: rgba(255, 255, 255, 0.911);
+}
+
+button {
+    margin-top: 25px;
+    background-color: #02f30ade;;;
+    color: rgb(19, 18, 18);
+    height: 26px;
+    width: 50px;
+    border: 1px solid rgba(247, 47, 12, 0.692);
+    border-radius: 10px;
+    font-size: 16px;
+    font-family:serif;
+    font-weight: 900;
+}
+
+button:hover {
+    background-color: #f12516;
+    color: white;
+    border:1px solid rgb(230, 231, 247);
+    height: 26px;
+    width:59px ;
+    padding: 2px;
+    box-shadow: 0 0.5em 0.7em -0.1em rgb(8, 161, 3);
+    cursor: pointer;
+    font-size: 14px;
+    font-family::'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+
+/* #menu:hover {
+    border: 2px solid rgb(20, 17, 17);
+    padding: 4px;
+    border-radius: 10px;
+} */
+
+#back {
+    margin: 0 auto;
+    margin-top: 285px;
+    margin-left: 27px;
+    width: 60px;
+    height: 26px;
+    border-radius: 6px;
+    background-color: rgba(1, 158, 1, 0.911);
+    border: 1px solid white;
+    color: white;
+    font-size: 14px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#back:hover{
+    
+    width:62px;
+    font-size: 16x;
+    background-color: rgb(44, 172, 13);
+    border: 2px solid rgba(9, 10, 10, 0.897);
+    border-radius: 6px;
+    
+    /* transform: translateY(-0.1em); */
+    cursor: pointer;
+    border-color: #90ff5c;  
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c9f;
+    
+}
+hr{
+    border: 1px solid rgba(214, 206, 206, 0.24);
+}
+
+h3{
+    color: rgb(248, 248, 246);
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        background-image: url(../pexels-dương-nhân-1529881.jpg);
+        background-size: cover;
+        /* height: 100vh; */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+}
+
+@media (max-width: 480px)
+{
+body {
+    background-image: url(../pexels-dương-nhân-1529881.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#menu {
+    width: 403px;
+    margin-left: 21px;
+}
+}
+@media (min-width: 479px)
+{
+    body{
+
+    }
+    /* #menu {
+        width:380px
+    } */
+}
+

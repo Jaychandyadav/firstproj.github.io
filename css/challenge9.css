@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin-top: 25px;
+  width: 300px;
+}
+
+body {
+  background-color: black;
+}
+
+p {
+  color: white;
+}

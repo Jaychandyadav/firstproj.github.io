@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../image/challenge2/1799602\ -\ Copy.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment: fixed;
+}
+
+div {
+    margin: 50px;
+    width: 350px;
+    height: 450px;
+    border: 1px solid rgba(227, 250, 24, 0.5);
+    border-radius: 8px;
+    background-color: rgba(12, 12, 10, 0.548);
+}
+
+p {
+    color: wheat;
+    text-align: left;
+    margin-top: 24px;
+    margin-left: 15px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 30;
+}
